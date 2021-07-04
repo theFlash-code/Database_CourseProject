@@ -1,0 +1,70 @@
+@font-face{
+    font-family: NaniFont-Light;
+    src: url(../nanifont-master/ttf/NaniFont-ExtraLight.ttf);
+}
+
+/*
+    Comfortaa
+    Kanit
+*/
+
+/*
+    to do :
+    update the navbar hover color(possible rewrite)
+*/
+
+@font-face{
+    font-family: NaniFont-Light;
+    src: url(nanifont-master/ttf/NaniFont-ExtraLight.ttf);
+}
+
+
+/* footer */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #111;
+    display: flex;
+}
+
+.information {
+    padding-top: 50px;
+}
+
+.information h3 {
+    color: rgb(255, 255, 255);
+    font-family: NaniFont-Light;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.Social-media {
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Social-media a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Social-media a h4 {
+    padding-top: 10px;
+    font-family: NaniFont-Light;
+    line-height: 36px;
+    font-size: 22px;
+}
+

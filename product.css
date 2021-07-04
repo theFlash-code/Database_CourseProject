@@ -1,0 +1,489 @@
+/*
+    Comfortaa
+    Kanit
+*/
+
+/*
+    to do :
+    update the navbar hover color(possible rewrite)
+*/
+
+@font-face{
+    font-family: NaniFont-Light;
+    src: url(nanifont-master/ttf/NaniFont-ExtraLight.ttf);
+}
+
+
+/* banner */
+
+.black-back {
+    background-color: #ccc;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(img/woodenBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: table;
+}
+
+.banner .container {
+    display: table-cell;
+    padding-top: 15vh;
+}
+
+.banner .container h1 {
+    font-family: NaniFont-Light;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.banner h2{
+    font-family: NaniFont-Light;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color:#fff;
+    text-align: center;
+    text-shadow: 3px 3px 8px #111;
+}
+
+/* Form */
+.ordform{
+    width: 800px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    color: #FFFFFF;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgb(0,0,0,0.5);
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 15px 15px
+
+}
+
+form{
+    padding: 10px;
+    align-self: center;
+}
+
+#name{
+    width: 100%;
+    height: 100px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 0px;
+    width:125px;
+    color: white;
+    font-size: 18px;
+    font-family: NaniFont-Light;
+}
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position: relative;
+    left: 417px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.firstlabel{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -45px;
+    font-family: NaniFont-Light;
+}
+
+.lastlabel{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 175px;
+    top: -45px;
+    font-family: NaniFont-Light;
+}
+
+.company, .email, .phonenumber{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+}
+
+.option{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 580px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+}
+
+option, select{
+    font-size: 16px;
+    font-family: NaniFont-Light;
+}
+
+
+
+button :hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+button {
+    background-color: #d14a3b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 25%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+/*
+@media only screen and (min-width: 1500px){
+    .banner {
+        width: 90%;
+    }
+}
+*/
+
+main {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(img/SteamBuns.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: table;
+}
+
+main h3 {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: NaniFont-Light;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+/*cards*/
+
+.span-title {
+    line-height: 200px;
+    font-family: NaniFont-Light;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.card-container{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto auto;
+}
+
+.card-div {
+    margin: 40px;
+    border-radius: 10px;
+    width: 300px;
+    height: fit-content;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.card-product1{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/whiteBuns.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product2{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/wheatBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product3{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/linseedBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product4{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/cropsbun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product5{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/sweatBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.card-product6{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/berryBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.card-product7{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/rasinBun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.card-product8{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/seasamBun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.card-product9{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/pumpkinBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product10{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/purpleYamBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product11{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/torolBun.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product12{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/brownSugarBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+
+.card-product13{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/scallionBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product14{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/redbeanBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product15{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/taroBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product16{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/brnsugarseeBun.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.card-product17{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/cheeseBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+
+.card-text {
+    overflow: scroll;
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    background-color: #181717de;
+    border-radius: 0 0 10px 10px;
+}
+
+.card-text h4 {
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto 10px;
+    font-family: Patrick Hand;
+    font-size: 16px;
+    line-height: 24px;
+}
+

@@ -1,0 +1,8 @@
+@font-face{
+    font-family: NaniFont-Light;
+    src: url(../nanifont-master/ttf/NaniFont-ExtraLight.ttf);
+}
+
+.natali{
+    font-family: NaniFont-Light;
+}

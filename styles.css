@@ -1,0 +1,229 @@
+/*
+    Comfortaa
+    Kanit
+*/
+
+/*
+    to do :
+    update the navbar hover color(possible rewrite)
+*/
+
+@font-face{
+    font-family: NaniFont-Light;
+    src: url(nanifont-master/ttf/NaniFont-ExtraLight.ttf);
+}
+
+/* banner */
+
+.black-back {
+    background-color: #ccc;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(img/SteamBuns.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: table;
+}
+
+.banner .container {
+    display: table-cell;
+    padding-top: 45vh;
+}
+
+.banner .container h1 {
+    font-family: NaniFont-Light;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.banner h2{
+    font-family: NaniFont-Light;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color:#fff;
+    text-align: center;
+    text-shadow: 3px 3px 8px #111;
+    border: 0px;
+}
+
+/*
+@media only screen and (min-width: 1500px){
+    .banner {
+        width: 90%;
+    }
+}
+*/
+
+
+/**/
+main {
+    background-image: url(img/BackGround-black.jpg);
+}
+
+main h3 {
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(255, 132, 0, 0.42);
+    color: white;
+    font-family: NaniFont-Light;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+/* Card */
+.card-section {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto auto;
+}
+
+.card-div {
+    margin: 40px;
+    border-radius: 10px;
+    width: 450px;
+    height: fit-content;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.card-img-IICC{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/whiteBuns.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card-img-IICC:hover{
+    opacity: 0.8;
+}
+
+.card-img-Football {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/wheatBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card-img-Football:hover{
+    opacity: 0.8;
+}
+
+.card-img-Programming {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/brownSugarBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card-img-Programming:hover{
+    opacity: 0.8;
+}
+
+.card-img-Sport{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/taroBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card-img-Sport:hover{
+    opacity: 0.8;
+}
+
+.card-img-BoardGame{
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    background-image: url(img/scallionBun.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.card-img-BoardGame:hover{
+    opacity: 0.8;
+}
+
+.span-title {
+    line-height: 300px;
+    font-family: NaniFont-Light;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.card-text {
+    overflow: scroll;
+    margin: 0 auto;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 142, 21, 0.3);
+    border-radius: 0 0 10px 10px;
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+.card-text p {
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: Patrick Hand;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0;
+    transition: all 1s ease-in-out 0.3s;
+}
+
+
+
