@@ -336,7 +336,7 @@ footer {
     width: 100%;
     height: fit-content;
     background-color: #111;
-    display: flex;
+    /* display: flex; */
 }
 
 .information {
