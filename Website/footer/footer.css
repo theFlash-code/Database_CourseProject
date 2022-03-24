@@ -26,9 +26,10 @@ a {
 }
 
 footer {
-    width: 100%;
+    width: 50%;
     height: fit-content;
     background-color: #111;
+    display: flex;
 }
 
 .information {
@@ -51,7 +52,7 @@ footer {
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 50px;
-    /* display: flex; */
+    display: flex;
     justify-content: space-evenly;
 }
 
