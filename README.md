@@ -1,8 +1,8 @@
 # Database_CourseProject
 ## Introduction
-This is a project I made for the Database Course I took in CCU MIS.<br>
-This project is made with HTML, CSS, JavaScript, php and SQL<br>
-The Website is created for a steam bread shop, which will allow the shop staff to edit some orders and member list, and allow the customers to order steam bread online.
+- This project is made with HTML, CSS, JavaScript, php and SQL<br>
+- The Website is created for a steam bread shop, which will allow the shop staff to edit some orders and member list, and allow the customers to order steam bread online.<br>
+- This is a project I made for the Database Course I took in CCU MIS.
 ## Database
 #### ERD
 ![ERD](img/ERD.png)
